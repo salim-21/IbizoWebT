@@ -1,0 +1,161 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  color: #181212;
+  height: 12vh;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+
+}
+
+.img-11 {
+  height: 40px;
+  margin-left: -25px;
+}
+
+#zy {
+  border-radius: 6px;
+  color: white;
+  background-color: #0074ff;
+  width: 170px;
+  height: 35px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+#zy:hover {
+  background-color: #0074ff;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-size: 19px;
+}
+
+.nav-links li {
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #272742;
+  align-self: flex-end;
+}
+.nav-links li:hover {
+  color: #0074ff;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-toggle.open {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 84px; /* Adjust this value as needed */
+    left: 0px; /* Adjust this value as needed */
+    background-color: #e2dada;
+    color: white;
+    width: 100%;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    height: 12vh;
+  }
+  #zy {
+    width: 120px;
+    color: #FFF; 
+
+text-align: center;
+font-family: Poppins;
+font-size: 0.75rem;
+/* font-style: normal; */
+font-weight: 600;
+/* line-height: normal; */
+  }
+  img{
+    width: 3.75rem;
+height: 1.5rem;
+flex-shrink: 0;
+  }
+}
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+  color: #272742;
+  /* padding: 14px 16px; */
+  font: Roboto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.fa-caret-down {
+  margin: 8px;
+}
+.aa{
+  font-size: 16px;
+}
+.dropdown-content{
+width: 230px;
+
+}

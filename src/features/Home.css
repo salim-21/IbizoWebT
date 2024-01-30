@@ -1,0 +1,24 @@
+
+/* *{
+margin: 0px;
+padding: 0px;
+
+
+} */
+
+ 
+
+ /* #carouselExampleDark{
+  border: 1px solid red;
+ } */
+ /* #circle{
+  border: 1px solid rgb(0, 132, 255);
+  height: 500px;
+  text-align: center;
+  padding: auto;
+ } */
+ /* .carousel-item{
+border:1px solid red;} */
+.carousel-indicators{
+    border-radius: 130px;
+}

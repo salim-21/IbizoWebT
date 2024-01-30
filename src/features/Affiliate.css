@@ -1,0 +1,10 @@
+@media (max-width: 991px) {
+  #an-input {
+    display: none;
+
+  }
+  #anm-input{
+    display: flex;
+    justify-content: center;
+  }
+}
