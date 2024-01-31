@@ -6,7 +6,8 @@ nav {
   color: #181212;
   height: 12vh;
   width: 100%;
-  position: fixed;
+  position: sticky;
+  top:0;
   z-index: 2;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   

@@ -12,7 +12,7 @@ function Affiliate() {
             backgroundImage: `url("/img/Affiliate%20hero%20section.svg")`,
           }}
         >
-          <div className="text-sky-400 text-7xl font-medium self-center mt-32 max-md:max-w-full max-md:text-4xl">
+          <div className="text-sky-400 text-7xl font-medium self-center mt-32 max-md:max-w-full max-md:mt-auto max-md:text-4xl">
             Affiliate Marketing Service
           </div>
           <div className="text-white text-center text-[20px] font-medium leading-9 w-[100%] mt-10 max-md:max-w-[100%] max-md:mr-2.5">
@@ -235,12 +235,12 @@ function Affiliate() {
               </div>
             </div>
           </div>
-          <div className="text-gray-950 text-4xl font-bold self-stretch ml-5 mt-56 max-md:max-w-full max-md:mt-10">
+          <div className="text-gray-950 text-4xl m-auto pt-[56px] font-bold self-stretch ml-5 max-md:max-w-full max-md:mt-10">
             Why Choose Ibizo Technologies
           </div>
-          <div className="self-stretch ml-5 mt-16 max-md:max-w-full max-md:mt-10">
+          <div className="self-stretch ml-5 m-auto mt-16 max-md:max-w-full">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0">
+              <div className="flex flex-col items-stretch w-[46%] max-md:w-full max-md:ml-0 max-md:m-16">
                 <div className="items-stretch flex flex-col my-auto max-md:max-w-full max-md:mt-8">
                   <div className="flex justify-between gap-5 items-start max-md:max-w-full max-md:flex-wrap">
                     <img

@@ -23,7 +23,7 @@ export function Home() {
           style={{ backgroundImage: `url("/img/hero2.jpg")`}}
         
         >
-          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 mt-20">
+          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 mt-20 max-xl:m-auto">
             <div className="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0">
               <span className="flex flex-col my-auto pr-11 pt-[100px] items-start max-md:max-w-[100%] max-md:mt-0 max-md:pr-5">
                 <div className="justify-center text-sky-400 text-4xl self-stretch max-md:max-w-full">
@@ -80,7 +80,7 @@ export function Home() {
               </div>
             </div>
           </div>
-          <div className="items-stretch flex justify-between gap-5 ml-5 mr-5 mt-24 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10">
+          <div className="items-stretch flex m-auto justify-between gap-5 ml-5 mr-5 pt-24 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
             <img
               loading="lazy"
               srcSet="/img/image%2091.svg"
@@ -107,7 +107,7 @@ export function Home() {
               className="aspect-[1.5] object-contain object-center w-[72px] overflow-hidden shrink-0 max-w-full"
             />
           </div>
-          <div className="items-stretch flex justify-between gap-5 ml-5 mr-5 mt-28 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10">
+          <div className="items-stretch m-auto flex justify-between gap-5 ml-5 mr-5 pt-28 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
             <img
               loading="lazy"
               srcSet="/img/image%2076.svg"
@@ -285,16 +285,16 @@ export function Home() {
             Architect The Digital Metamorphosis Of Your Business With Our
             Cutting-Edge Digital Marketing Maestros.
           </div>
-          <div className="justify-center mt-16 mb-16 mx-9 max-md:max-w-full max-md:mr-2.5 max-md:my-10">
+          <div className="justify-center m-auto mt-16 mb-16 mx-9 max-md:max-w-full max-md:mr-2.5 max-md:my-10 max-md:m-1">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-[48%] max-md:w-full max-md:ml-0">
                 <img
                   loading="lazy"
                   srcSet="/img/Woman%20and%20a%20man%20put%20the%20puzzle%20together.svg"
-                  className="aspect-[1.09] object-contain object-center m-auto h-full w-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
+                  className="aspect-[1.09] object-contain object-center m-auto h-full overflow-hidden grow max-md:max-w-full max-md:mt-10 max-md:w-full"
                 />
               </div>
-              <div className="flex flex-col items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
+              <div className="flex flex-col mt-[60px] items-stretch w-[52%] ml-5 max-md:w-full max-md:ml-0">
                 <div className="items-stretch content-start flex-wrap flex flex-col max-md:max-w-full max-md:mt-10">
                   <div className="max-md:max-w-full">
                     <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
@@ -375,7 +375,7 @@ export function Home() {
           </div>
         </span>
         <div className="justify-center items-stretch bg-cyan-50 self-stretch flex w-full flex-col mt-11 pl-16 pr-11 py-12 rounded-3xl max-md:max-w-full max-md:mt-10 max-md:px-5">
-          <div className="ml-10 mt-6 mb-2.5 max-md:max-w-full">
+          <div className="ml-10 mt-6 m-auto mb-2.5 max-md:max-w-full">
             <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
               <div className="flex flex-col items-stretch w-[56%] max-md:w-full max-md:ml-0">
                 <span className="flex grow flex-col items-start max-md:max-w-full max-md:mt-7">

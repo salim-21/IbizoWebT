@@ -210,7 +210,7 @@ export default function Performance() {
             className="aspect-[1.26] object-contain h-full object-center w-[50%] overflow-hidden max-w-full mt-14 self-end max-md:mt-10"
           /> */}
           </div>{" "}
-          <div className="container row">
+          <div className="container row m-auto">
             <div className="col-6">
               <div className="items-center flex justify-between gap-5 ml-24 mt-12 self-start max-md:max-w-full max-md:mt-10 max-md:w[100%] max-md:m-auto max-md:flex-wrap">
                 <div className="items-stretch w-[75px] h-[75px] bg-orange-50 rounded-full flex basis-[0%] flex-col justify-center my-auto">

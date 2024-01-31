@@ -22,7 +22,7 @@ function About() {
   return (
     
     <Fragment>
-      
+     
       <span
         className="bg-slate-950 self-stretch m-auto bg-cover bg-no-repat flex w-full flex-col items-center px-20 py-12 max-md:max-w-full max-md:px-5"
         style={{
@@ -40,7 +40,7 @@ function About() {
           are your gateway to unparalleled ROI and a thriving digital future.
         </div>
       </span>
-      <div className="self-center w-full max-w-[100%] mt-40 max-md:max-w-full max-md:mt-10">
+      <div className="self-center w-full max-w-[100%]  mt-40 max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-3/5 max-md:w-full max-md:ml-0">
             <span className="items-stretch flex flex-col my-auto px-5 max-md:max-w-full max-md:mt-10">
@@ -64,7 +64,7 @@ function About() {
           <div className="flex flex-col items-stretch w-2/5 ml-5 max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              srcSet="/image/96.jpg"
+              srcSet="/image/teamA.svg"
               className="aspect-[1.26] object-contain object-center w-full h-full overflow-hidden grow max-md:max-w-full max-md:mt-10"
             />
           </div>
