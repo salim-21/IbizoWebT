@@ -36,7 +36,7 @@ export default function Performance() {
               <Link
                 to={"/Contact"}
                 type="submit"
-                className="text-white h-[60px] text-lg pt-[15px] whitespace-nowrap justify-center items-stretch bg-blue-600 self-stretch px-12 m-auto max-md:px-5 max-md:w-[100%]"
+                className="text-white hover:bg-black h-[60px] text-lg pt-[15px] whitespace-nowrap justify-center items-stretch bg-blue-600 self-stretch px-12 m-auto max-md:px-5 max-md:w-[100%]"
                 id="anm-input"
               >
                 Talk to expert
@@ -498,7 +498,7 @@ export default function Performance() {
                   ></textarea>
                   <button
                     typeof="submit"
-                    className="text-white text-base font-semibold whitespace-nowrap justify-center items-stretch bg-blue-600 mt-6 px-16 py-3 rounded-lg self-start max-md:px-5"
+                    className="text-white hover:bg-black text-base font-semibold whitespace-nowrap justify-center items-stretch bg-blue-600 mt-6 px-16 py-3 rounded-lg self-start max-md:px-5"
                   >
                     Submit
                   </button>

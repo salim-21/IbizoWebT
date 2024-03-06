@@ -38,6 +38,9 @@ height: 70px;
   width: 100%;
   height:60px;
 }
+#btn-name:hover{
+  background-color: black;
+}
 .email-link {
   /* font-family: Poppins; */
   font-size: 32px;

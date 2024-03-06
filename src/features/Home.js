@@ -13,17 +13,15 @@ import { Link } from "react-router-dom";
 //     }
 //   }
 
-
 export function Home() {
   return (
     <Fragment>
-     
       <span className="bg-white flex flex-col">
-        <div className="bg-slate-950 self-stretch m-auto bg-cover bg-no-repat w-full pl-20 max-md:max-w-full max-md:pl-5 h-screen m-auto"
-          style={{ backgroundImage: `url("/img/hero2.jpg")`}}
-        
+        <div
+          className="bg-slate-950 self-stretch m-auto bg-cover bg-no-repat w-full pl-20 max-md:max-w-full max-md:pl-5 h-screen m-auto"
+          style={{ backgroundImage: `url("/img/hero2.jpg")` }}
         >
-          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 mt-20 max-xl:m-auto">
+          <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0 mt-20">
             <div className="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0">
               <span className="flex flex-col my-auto pr-11 pt-[100px] items-start max-md:max-w-[100%] max-md:mt-0 max-md:pr-5">
                 <div className="justify-center text-sky-400 text-4xl self-stretch max-md:max-w-full">
@@ -38,16 +36,19 @@ export function Home() {
                   Driving business growth through innovative and impactful
                   digital products and services.
                 </div>
-                <Link to={'/Contact'} className="items-stretch bg-blue-600 flex w-[189px] max-w-full flex-col justify-center mt-16 px-7 py-2 rounded-sm max-md:mt-10 max-md:p-4 max-md:w-[100%">
-                  <button className="items-stretch flex justify-between gap-1">
+                <Link
+                  to={"/Contact"}
+                  className="items-stretch hover:bg-black bg-blue-600 flex w-[189px] max-w-full flex-col justify-center mt-16 px-7 py-2 rounded-sm max-md:mt-10 max-md:p-4 max-md:w-[100%"
+                >
+                  <button className="items-stretch  flex justify-between gap-1">
                     <div className="text-white text-center text-base font-medium grow whitespace-nowrap p-2">
                       Talk to expert
                     </div>
-                    <img
-                      loading="lazy"
-                      src="/img/go.svg"
-                      className="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full p-auto"
-                    />
+
+                    <i
+                      className="fa fa-angle-right p-2"
+                      style={{ fontSize: "21px", color: "white" }}
+                    ></i>
                   </button>
                 </Link>
               </span>
@@ -55,32 +56,39 @@ export function Home() {
           </div>
         </div>
         <span className="bg-white self-stretch flex w-full flex-col items-stretch mt-20 px-20 py-12 max-md:max-w-full max-md:mt-10 max-md:px-5">
-          <div className="ml-5 mr-5 mt-6 max-md:max-w-full max-md:mr-2.5">
-            <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-              <div className="flex flex-col items-stretch w-[24%] max-md:w-full max-md:ml-0">
-                <div className="text-blue-500 text-4xl capitalize my-auto max-md:mt-10">
-                  <span className="font-medium text-neutral-900">
-                    Companies{" "}
-                  </span>
-                  <span className="font-semibold text-blue-500">
-                    we Work with
-                  </span>
+          <div className="container">
+            <div className="ml-5 mr-5 mt-6 max-md:max-w-full max-md:mr-2.5">
+              <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                <div className="flex flex-col items-stretch w-[30%] max-md:w-full max-md:ml-0">
+                  <div
+                    className="text-blue-500 text-4xl capitalize my-auto 
+                max-md:mt-10"
+                  >
+                    <span className="font-medium text-neutral-900">
+                      Companies
+                      <br />
+                    </span>
+                    <span className="font-semibold text-blue-500">
+                      we Work with
+                    </span>
+                  </div>
                 </div>
-              </div>
-              <div className="flex flex-col items-stretch w-[76%] ml-5 max-md:w-full max-md:ml-0">
-                <div className="text-zinc-600 text-xl capitalize max-md:max-w-full max-md:mt-6">
-                  Embark on a transformative journey with us, where your triumph
-                  is our paramount focus. Our proficiency lies in delivering
-                  exceptional services through bespoke strategies, driving
-                  unparalleled growth and satisfaction for businesses of all
-                  sizes. By seamlessly integrating cutting-edge analytics,
-                  AI-powered tools, and multi-channel strategies, we orchestrate
-                  a meticulously designed symphony of campaigns.{" "}
+                <div className="flex flex-col items-stretch w-[70%] ml-5 max-md:w-full max-md:ml-0">
+                  <div className="text-zinc-600 text-xl capitalize max-md:max-w-full max-md:mt-6">
+                    Embark on a transformative journey with us, where your
+                    triumph is our paramount focus. Our proficiency lies in
+                    delivering exceptional services through bespoke strategies,
+                    driving unparalleled growth and satisfaction for businesses
+                    of all sizes. By seamlessly integrating cutting-edge
+                    analytics, AI-powered tools, and multi-channel strategies,
+                    we orchestrate a meticulously designed symphony of
+                    campaigns.{" "}
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="items-stretch flex m-auto justify-between gap-5 ml-5 mr-5 pt-24 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
+          <div className="items-stretch flex m-auto justify-between gap-20 ml-5 mr-5 pt-24 px-0.5 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
             <img
               loading="lazy"
               srcSet="/img/image%2091.svg"
@@ -107,7 +115,7 @@ export function Home() {
               className="aspect-[1.5] object-contain object-center w-[72px] overflow-hidden shrink-0 max-w-full"
             />
           </div>
-          <div className="items-stretch m-auto flex justify-between gap-5 ml-5 mr-5 pt-28 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
+          <div className="items-stretch m-auto flex justify-between gap-20 ml-5 mr-5 pt-28 max-md:max-w-full max-md:flex-wrap max-md:mr-2.5 max-md:mt-10 max-md:m-0">
             <img
               loading="lazy"
               srcSet="/img/image%2076.svg"
@@ -182,25 +190,26 @@ export function Home() {
                         campaigns that are consistently optimized for maximum
                         ROI and at the forefront of industry innovation.
                       </div> */}
-                       <div className="flex justify-between gap-5 items-start max-md:max-w-full max-md:flex-wrap max-md:max-w-full">
-                       <img
-                        loading="lazy"
-                        src="/img/Group%2021.svg"
-                        className="aspect-square object-contain mt-[-35px] object-center h-full w-[78px] overflow-hidden max-md:w-[50px] max-md:mt-0"
-                      />
-                    <span className="items-stretch self-stretch flex grow basis-[0%] border-black flex-col max-md:max-w-full">
-                    <div className="text-gray-800 text-2xl font-medium">
-                        Working Process
-                      </div>
-                      <div className="text-zinc-600 text-lg mt-2">
-                        Get ready to harness an innovative, data-driven
-                        approach, leveraging advanced analytics, AI-driven
-                        tools, and multi-channel strategies to orchestrate
-                        campaigns that are consistently optimized for maximum
-                        ROI and at the forefront of industry innovation.
-                      </div>
-                    </span>
-                  </div>{" "}
+                      <div className="flex justify-between gap-5 items-start max-md:max-w-full max-md:flex-wrap max-md:max-w-full">
+                        <img
+                          loading="lazy"
+                          src="/img/Group%2021.svg"
+                          className="aspect-square object-contain mt-[-35px] object-center h-full w-[78px] overflow-hidden max-md:w-[50px] max-md:mt-0"
+                        />
+                        <span className="items-stretch self-stretch flex grow basis-[0%] border-black flex-col max-md:max-w-full">
+                          <div className="text-gray-800 text-2xl font-medium">
+                            Working Process
+                          </div>
+                          <div className="text-zinc-600 text-lg mt-2">
+                            Get ready to harness an innovative, data-driven
+                            approach, leveraging advanced analytics, AI-driven
+                            tools, and multi-channel strategies to orchestrate
+                            campaigns that are consistently optimized for
+                            maximum ROI and at the forefront of industry
+                            innovation.
+                          </div>
+                        </span>
+                      </div>{" "}
                       {/* <div className="text-gray-800 text-2xl font-medium mt-12 max-md:mt-10">
                         Dedicated Team
                       </div>
@@ -211,43 +220,44 @@ export function Home() {
                         solutions that propel our clients to unprecedented
                         success in the ever-evolving digital landscape.
                       </div> */}
-                       <div className="flex justify-between gap-5 mt-1 items-start max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-                       <img
-                        loading="lazy"
-                        src="img/Group%2018.svg"
-                        className="aspect-square object-contain object-center h-full w-[78px] overflow-hidden mt-26 max-md:mt-10 max-md:w-[50px] max-md:max-w-full"
-                      />
-                    <span className="items-stretch self-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
-                    <div className="text-gray-800 text-2xl font-medium mt-5 max-md:mt-10">
-                        Dedicated Team
+                      <div className="flex justify-between gap-5 mt-1 items-start max-md:max-w-full max-md:flex-wrap max-md:mt-10">
+                        <img
+                          loading="lazy"
+                          src="img/Group%2018.svg"
+                          className="aspect-square object-contain object-center h-full w-[78px] overflow-hidden mt-26 max-md:mt-10 max-md:w-[50px] max-md:max-w-full"
+                        />
+                        <span className="items-stretch self-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
+                          <div className="text-gray-800 text-2xl font-medium mt-5 max-md:mt-10">
+                            Dedicated Team
+                          </div>
+                          <div className="text-zinc-600 text-lg mt-3">
+                            {" "}
+                            Our forward-thinking team stands at the frontier of
+                            your digital fortress, pioneering innovative
+                            strategies and solutions that propel our clients to
+                            unprecedented success in the ever-evolving digital
+                            landscape.
+                          </div>
+                        </span>
+                      </div>{" "}
+                      <div className="flex justify-between gap-5 mt-6 items-start max-md:max-w-full max-md:flex-wrap max-md:mt-10">
+                        <img
+                          loading="lazy"
+                          src="/img/Group%2017.svg"
+                          className="aspect-square object-contain object-center h-full w-[78px] overflow-hidden mt-22 max-md:mt-10 max-md:w-[50px] max-md:max-w-full"
+                        />
+                        <span className="items-stretch self-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
+                          <div className="text-gray-800 text-2xl font-medium mt-11 max-md:mt-10">
+                            24/7 Support
+                          </div>
+                          <div className="text-zinc-600 text-lg mt-3">
+                            Unwavering access to expert assistance and guidance,
+                            ensuring your campaigns are finely tuned, your
+                            questions are promptly answered, and your success is
+                            our constant priority.
+                          </div>
+                        </span>
                       </div>
-                      <div className="text-zinc-600 text-lg mt-3">
-                        {" "}
-                        Our forward-thinking team stands at the frontier of your
-                        digital fortress, pioneering innovative strategies and
-                        solutions that propel our clients to unprecedented
-                        success in the ever-evolving digital landscape.
-                      </div>
-                    </span>
-                  </div>{" "}
-                  <div className="flex justify-between gap-5 mt-6 items-start max-md:max-w-full max-md:flex-wrap max-md:mt-10">
-                  <img
-                        loading="lazy"
-                        src="/img/Group%2017.svg"
-                        className="aspect-square object-contain object-center h-full w-[78px] overflow-hidden mt-22 max-md:mt-10 max-md:w-[50px] max-md:max-w-full"
-                      />
-                    <span className="items-stretch self-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
-                    <div className="text-gray-800 text-2xl font-medium mt-11 max-md:mt-10">
-                        24/7 Support
-                      </div>
-                      <div className="text-zinc-600 text-lg mt-3">
-                        Unwavering access to expert assistance and guidance,
-                        ensuring your campaigns are finely tuned, your questions
-                        are promptly answered, and your success is our constant
-                        priority.
-                      </div>
-                    </span>
-                  </div>
                       {/* <div className="text-gray-800 text-2xl font-medium mt-11 max-md:mt-10">
                         24/7 Support
                       </div>
@@ -399,11 +409,17 @@ export function Home() {
                     className="items-stretch
                    flex w-[403px] h-[60px] max-w-full justify-between gap-5 mt-7 px-px max-md:flex-wrap"
                   >
-                    <Link to={'/Performance'} className="text-white text-center text-xl font-semibold leading-6 whitespace-nowrap items-center rounded bg-blue-600 grow justify-center px-16 py-3 max-md:px-5">
+                    <Link
+                      to={"/Performance"}
+                      className="text-white hover:bg-black text-center text-xl font-semibold leading-6 whitespace-nowrap items-center rounded bg-blue-600 grow justify-center px-16 py-3 max-md:px-5"
+                    >
                       Explore
                     </Link>{" "}
-                    <Link to={'/Contact'} className="text-blue-600 text-center text-xl font-semibold leading-6 whitespace-nowrap items-center rounded border bg-white grow justify-center px-16 py-3 border-solid border-blue-600 max-md:px-5">
-                     Contact 
+                    <Link
+                      to={"/Contact"}
+                      className="text-blue-600  text-center  text-xl font-semibold leading-6 whitespace-nowrap items-center rounded border bg-white  grow justify-center px-16 py-3 border-solid border-blue-600 max-md:px-5"
+                    >
+                      Contact
                     </Link>
                   </div>
                 </span>
@@ -440,11 +456,12 @@ export function Home() {
               class="carousel carousel-dark slide"
               data-bs-ride="carousel"
             >
-              <div class="carousel-inner" id="circle">{/*main*/}
+              <div class="carousel-inner" id="circle">
+                {/*main*/}
                 <div
                   className="carousel-item active"
                   data-bs-interval="10000"
-                  style={{ background: "none", height: "100%"}}
+                  style={{ background: "none", height: "100%" }}
                 >
                   <div className="flex flex-col m-auto items-stretch w-[78%] ml-5 max-md:w-full max-md:ml-0">
                     <div className="bg-white grow w-full mt-1 pl-9 pr-1 py-1 rounded-2xl max-md:max-w-full max-md:mt-1 max-md:px-5 max-md:h-full">
@@ -585,9 +602,7 @@ export function Home() {
             </div>
           </div>{" "}
         </div>
-        
       </span>
-      
     </Fragment>
   );
 }

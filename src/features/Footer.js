@@ -101,11 +101,13 @@ function Footer() {
             <i className="pi pi-twitter"></i>
           </a>
 
+
           <a
             href="https://in.linkedin.com/company/ibizotechnologies"
             className="text-blue-600 text-2xl ml-2"
           >
             <i className="pi pi-linkedin"></i>
+
           </a>
         </span>
 

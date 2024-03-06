@@ -2,15 +2,11 @@ import React from "react";
 
 import "./Contact.css";
 
-
-
-
-
 const Contact = () => {
   return (
     <>
-    {/* main */}
-      <div className="container" >
+      {/* main */}
+      <div className="container">
         <div className="row" id="hero-sec">
           <div className="col-6" id="left-group">
             <h1 className="let">Let’s Talk</h1>
@@ -42,8 +38,7 @@ const Contact = () => {
             </a>
           </div>
           {/* Form */}
-          <div
-            className="col-6 col-md-">
+          <div className="col-6 col-md-">
             <form className="form-data">
               <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">
@@ -84,7 +79,7 @@ const Contact = () => {
                   required
                 ></textarea>
               </div>
-              <button type="submit"id="btn-name">
+              <button type="submit" id="btn-name">
                 Submit
               </button>
             </form>

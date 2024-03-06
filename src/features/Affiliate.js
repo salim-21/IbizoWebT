@@ -34,7 +34,7 @@ function Affiliate() {
 
             <Link
               to={"/Contact"}
-              className="text-white h-[60px] pt-[15px] text-lg whitespace-nowrap justify-center items-stretch bg-blue-600 self-stretch px-12 m-auto max-md:w-[100%]"
+              className="text-white hover:bg-black h-[60px] pt-[15px] text-lg whitespace-nowrap justify-center items-stretch bg-blue-600 self-stretch px-12 m-auto max-md:w-[100%]"
               id="anm-input"
             >
               Talk to expert
@@ -441,7 +441,7 @@ function Affiliate() {
                   ></textarea>
                   <button
                     typeof="submit"
-                    className="text-white text-base font-semibold whitespace-nowrap justify-center items-stretch bg-blue-600 mt-6 px-16 py-3 rounded-lg self-start max-md:px-5"
+                    className="text-white text-base hover:bg-black font-semibold whitespace-nowrap justify-center items-stretch bg-blue-600 mt-6 px-16 py-3 rounded-lg self-start max-md:px-5"
                   >
                     Submit
                   </button>
